@@ -50,4 +50,15 @@ fn main() {
 
     // 鳩が大声で叫ぶ
     dove.shout();
+
+    // アヒルのインスタンスを作成
+    let duck = Duck {};
+
+    // `dyn Tweet` を使用して異なる鳥のインスタンスを保持するベクターを作成
+    let bird_vec: Vec<Box<dyn Tweet>> = vec![Box::new(dove), Box::new(duck)];
+
+    // ベクター内の各鳥のインスタンスに対して `tweet` メソッドを呼び出す
+    for bird in bird_vec {
+        bird.tweet();
+    }
 }
