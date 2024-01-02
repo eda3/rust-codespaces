@@ -39,7 +39,8 @@ async fn main() {
         | GatewayIntents::DIRECT_MESSAGES
         | GatewayIntents::MESSAGE_CONTENT;
 
-    // 新しいクライアントのインスタンスを作成し、ボットとしてログインします。これにより、ボットトークンは自動的に「Bot 」で始まるようになり、これはDiscordによるボットユーザーの要件です。
+    // 新しいクライアントのインスタンスを作成し、ボットとしてログインします。
+    // これにより、ボットトークンは自動的に「Bot 」で始まるようになり、これはDiscordによるボットユーザーの要件です。
     let mut client =
         Client::builder(&token, intents).event_handler(Handler).await.expect("クライアントの作成に失敗しました");
 
