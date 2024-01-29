@@ -32,7 +32,7 @@ chown -R $USER_UID:$USER_GID /home/$USERNAME/.oh-my-zsh /home/$USERNAME/.zshrc
 git clone https://github.com/eda3/dotfiles .
 
 # dotfiles ディレクトリの絶対パスを取得
-DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+DOTFILES_DIR="/home/dotfiles"
 
 # インストール対象の設定やツールのリスト
 FILES_TO_INSTALL=(
