@@ -29,7 +29,7 @@ cp /root/.zshrc /home/$USERNAME
 sed -i -e "s/\/root\/.oh-my-zsh/\/home\/$USERNAME\/.oh-my-zsh/g" /home/$USERNAME/.zshrc
 chown -R $USER_UID:$USER_GID /home/$USERNAME/.oh-my-zsh /home/$USERNAME/.zshrc
 
-git clone https://github.com/eda3/dotfiles .
+git clone https://github.com/eda3/dotfiles
 
 # dotfiles ディレクトリの絶対パスを取得
 DOTFILES_DIR="/home/dotfiles"
