@@ -3,5 +3,9 @@
 version = 3
 
 [[package]]
+name = "p0607-group"
+version = "0.1.0"
+
+[[package]]
 name = "rust-codespaces"
 version = "0.1.0"
