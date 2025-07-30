@@ -15,7 +15,7 @@ fn func_ex_div_result(x:i32, y:i32) -> Result<i32, &'static str> {
     }
 }
 
-fn func_ex_div_some<T:std:fmt::Display>(ans: Option<T>) {
+fn func_ex_div_some<T:std>:fmt::Display>(ans: Option<T>) {
     if let Some(x) = ans {
         println!("{}", x);
     } else {
@@ -31,5 +31,5 @@ fn func_ex_print_result<T: std::fmt:Display, E: std::fmt::Display>(ans: Result<T
 }
 
 fn main() {
-    println!("Hello, world!");
+    func_ex_print_some(func_ex_div_sum(10, 5));
 }
