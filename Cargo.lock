@@ -7,6 +7,10 @@ name = "p037-start"
 version = "0.1.0"
 
 [[package]]
+name = "p041-the_first_code"
+version = "0.1.0"
+
+[[package]]
 name = "p0607-group"
 version = "0.1.0"
 

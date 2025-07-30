@@ -1,4 +1,4 @@
-workspace = { members = [ "coコンセプトから理解するRust_20250730/p037-start", "coコンセプトから理解するRust_20250730/p41-the_first_code", "ruRustで作るプログラミング言語/p0607-group"] }
+workspace = { members = [ "coコンセプトから理解するRust_20250730/p037-start", "coコンセプトから理解するRust_20250730/p041-the_first_code", "ruRustで作るプログラミング言語/p0607-group"] }
 [package]
 name = "rust-codespaces"
 version = "0.1.0"
