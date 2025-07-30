@@ -7,6 +7,14 @@ fn func_ex_div_sum(x:i32, y:i32) -> Option<i32> {
     ans
 }
 
+fn func_ex_div_result(x:i32, y:i32) -> Result<i32, &'static str> {
+    if y == 0 {
+        Err("divide by zero")
+    } else {
+        Ok(x / y)
+    }
+}
+
 
 fn main() {
     println!("Hello, world!");
