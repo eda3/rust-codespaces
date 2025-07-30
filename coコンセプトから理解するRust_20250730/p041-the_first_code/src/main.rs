@@ -15,6 +15,13 @@ fn func_ex_div_result(x:i32, y:i32) -> Result<i32, &'static str> {
     }
 }
 
+fn func_ex_div_some<T:std:fmt::Display>(ans: Option<T>) {
+    if let Some(x) = ans {
+        println!("{}", x);
+    } else {
+        println!("None");
+    }
+}
 
 fn main() {
     println!("Hello, world!");
