@@ -15,6 +15,10 @@ name = "p054-test_code_in_rust"
 version = "0.1.0"
 
 [[package]]
+name = "p058-defining_and_importing_modules"
+version = "0.1.0"
+
+[[package]]
 name = "p0607-group"
 version = "0.1.0"
 

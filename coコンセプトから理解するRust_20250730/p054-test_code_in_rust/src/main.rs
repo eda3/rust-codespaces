@@ -1,4 +1,4 @@
-// A simple function that adds tow i32 integers.
+// A simple function that adds two i32 integers.
 fn add_i32(x: i32, y: i32) -> i32 {
     x + y
 }
