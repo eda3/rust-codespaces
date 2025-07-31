@@ -1,3 +1,9 @@
+mod module_hello {
+    pub fn print_hello() {
+        println!("Hello");
+    }
+}
+
 fn main() {
-    println!("Hello, world!");
+    module_hello::print_hello();
 }
