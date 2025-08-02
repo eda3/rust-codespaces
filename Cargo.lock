@@ -27,5 +27,9 @@ name = "p107-once_bound"
 version = "0.1.0"
 
 [[package]]
+name = "p134-ref_in_ref_out"
+version = "0.1.0"
+
+[[package]]
 name = "rust-codespaces"
 version = "0.1.0"
