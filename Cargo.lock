@@ -31,5 +31,9 @@ name = "p134-ref_in_ref_out"
 version = "0.1.0"
 
 [[package]]
+name = "p136-dual_ref_slice_error"
+version = "0.1.0"
+
+[[package]]
 name = "rust-codespaces"
 version = "0.1.0"
